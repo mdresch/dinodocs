@@ -78,7 +78,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Docs',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -95,7 +95,7 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'CBA Docs',
               to: '/docs/intro',
             },
           ],
@@ -131,7 +131,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built by CBA with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} CBA Dinodocs Built by CBA with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
